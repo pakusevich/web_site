@@ -1,0 +1,255 @@
+@media (max-width: 1210px) {
+    .container {
+        padding: 20px 20px;
+    }
+}
+
+@media (max-width: 1150px) {
+    main section .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block {
+        width: 90%;
+        align-items: center;
+    }
+
+    .block h3 {
+        margin-bottom: 4%;
+    }
+
+    .block button {
+        width: 42%;
+    }
+
+    .description .block {
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .photo {
+        margin-top: 50px;
+    }
+
+    .card {
+        width: 560px;
+    }
+
+    .card img {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .price .card {
+        width: 60%;
+        height: 710px;
+    }
+
+    .price .card img {
+        height: 60%;
+    }
+
+    .images {
+        margin-left: -400px;
+        margin-bottom: 40px;
+    }
+
+    .forma {
+        width: auto;
+    }
+}
+
+@media (max-width: 1108px) {
+    .photo {
+        left: -30px;
+    }
+
+
+
+    .description .block {
+        width: 90%;
+    }
+
+    .box,
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .box {
+        width: 455px;
+        height: 700px;
+    }
+
+    .footer {
+        padding: 0;
+    }
+
+
+}
+
+@media (max-width: 1050px) {
+    .price .card {
+        width: 55%;
+    }
+
+    .social img {
+        padding: 20px;
+    }
+
+    .price .card img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    .block {
+        width: 90%;
+    }
+
+    .price .card img {
+        width: 85%;
+    }
+}
+
+@media (max-width: 860px) {
+    .phone {
+        margin: 10px;
+    }
+
+    .block button {
+        width: 50%;
+    }
+
+    nav {
+        order: 1;
+        flex-grow: 2;
+        margin: 40px;
+    }
+
+    nav a {
+        padding: 25px;
+    }
+
+    .price .card {
+        width: 70%;
+    }
+
+    .photo {
+        left: 25px;
+    }
+
+    .images {
+        margin-left: -300px;
+    }
+
+
+}
+
+@media (max-width: 720px) {
+    h1 {
+        font-size: calc(48px + (24 + 24 * 0.7) * ((100vw - 300px) / 1920));
+    }
+
+    h2 {
+        font-size: calc(50px + (14 + 14 * 0.7) * ((100vw - 300px) / 1920));
+    }
+
+    .photo {
+        width: 385px;
+        height: 235px;
+    }
+
+    .block button {
+        width: 60%;
+    }
+
+    .description .block img {
+        width: 415px;
+        height: 170px;
+    }
+}
+
+@media (max-width: 680px) {
+    .price .card {
+        width: 90%;
+    }
+
+    .block button {
+        width: 70%;
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .social {
+        width: auto;
+    }
+
+    .social img {
+        padding: 40px;
+    }
+
+    .images {
+        margin-left: -340px;
+    }
+}
+
+@media (max-width: 545px) {
+    .container {
+        padding: 0 5px;
+    }
+
+    .price .card {
+        width: 110%;
+    }
+
+    .show button {
+        height: auto;
+    }
+
+    .block,
+    .description .block {
+        width: 90%;
+    }
+
+    .description .box {
+        width: 330px;
+        height: 550px;
+        margin-left: -70px;
+    }
+
+
+    .price .card {
+        width: 97%;
+    }
+}
+
+@media (max-width: 500px) {
+    .block button {
+        width: 70%;
+    }
+
+    .photo {
+        width: 250px;
+        height: 180px;
+    }
+
+    .description .block img {
+        width: 300px;
+        height: 120px;
+    }
+
+    .rate {
+        flex-direction: column;
+    }
+}
